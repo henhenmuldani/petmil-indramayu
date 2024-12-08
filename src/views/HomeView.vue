@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Hero from '@/components/Hero.vue'
+import ProductsView from './ProductsView.vue'
 import {
   Card,
   CardContent,
@@ -27,30 +28,20 @@ const products = ref([
 
 <template>
   <Hero />
-  <div className="p-4 lg:p-0">
-    <h2 className="text-3xl font-semibold mb-10">Komoditas Pertanian</h2>
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-20">
+  <div class="p-4 lg:p-0">
+    <h2 class="mb-10 text-3xl font-semibold">Komoditas Pertanian</h2>
+    <div class="grid grid-cols-2 gap-6 mb-20 md:grid-cols-5">
       <div
         v-for="commodity in commodities"
-        className="rounded-lg text-center flex flex-col gap-2.5 items-center px-4 py-6 bg-gray-100"
+        class="rounded-lg text-center flex flex-col gap-2.5 items-center px-4 py-6 bg-gray-100"
       >
-        <img width="80px" height="80px" src="https://dummyimage.com/300" alt="" />
-        <p className="text-2xl">{{ commodity.name }}</p>
+        <img width="80px" height="80px" src="/src/assets/img/vegetables.svg" alt="" />
+        <p class="text-2xl">{{ commodity.name }}</p>
       </div>
     </div>
   </div>
-  <div className="p-4 lg:p-0">
-    <h2 className="text-3xl font-semibold mb-10">Produk Terbaru</h2>
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
-      <Card v-for="product in products">
-        <CardHeader class="items-center text-center">
-          <img width="80px" height="80px" src="https://dummyimage.com/300" alt="" />
-          <CardTitle>{{ product.name }}</CardTitle>
-          <CardDescription>Deskripsi Produk</CardDescription>
-        </CardHeader>
-        <CardContent>Nama Petani</CardContent>
-        <CardFooter>Nomor Telepon</CardFooter>
-      </Card>
-    </div>
+  <div class="p-4 lg:p-0">
+    <h2 class="mb-10 text-3xl font-semibold">Produk Terbaru</h2>
+    <ProductsView />
   </div>
 </template>

@@ -35,7 +35,7 @@ const products = ref([
         v-for="commodity in commodities"
         class="rounded-lg text-center flex flex-col gap-2.5 items-center px-4 py-6 bg-gray-100"
       >
-        <img width="80px" height="80px" src="/src/assets/img/vegetables.svg" alt="" />
+        <img width="80px" height="80px" src="/img/vegetables.svg" alt="" />
         <p class="text-2xl">{{ commodity.name }}</p>
       </div>
     </div>

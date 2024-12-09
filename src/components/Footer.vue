@@ -1,5 +1,5 @@
 <template>
-  <div className="h-14 flex justify-center items-center bg-slate-100">
+  <div class="flex items-center justify-center h-14 bg-slate-100">
     <p>
       Copyright © <a href="https://henhenmuldani.com" target="_blank">Henhen Imam Muldani</a> 2024
     </p>

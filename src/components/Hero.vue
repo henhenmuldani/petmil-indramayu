@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/button'
 
 <template>
   <div>
-    <div className="flex">
-      <div class="flex-1 flex flex-col justify-center mx-auto">
-        <h1 className="font-medium text-4xl">Tempatnya petani milenial Indramayu</h1>
-        <p className="text-xl mt-4">
+    <div class="flex">
+      <div class="flex flex-col justify-center flex-1 mx-auto">
+        <h1 class="text-4xl font-medium">Tempatnya petani milenial Indramayu</h1>
+        <p class="mt-4 text-xl">
           Bergabunglah dan temukan petani milenial lainnya untuk saling berbagi ilmu dan manfaat.
         </p>
 
@@ -16,8 +16,8 @@ import { Button } from '@/components/ui/button'
           ><Button class="w-40 h-10 text-lg">Daftar</Button></RouterLink
         >
       </div>
-      <div className="w-full flex-1 flex items-center justify-center mx-auto">
-        <img src="/src/assets/img/farmer.png" alt="farmer" className="w-full" />
+      <div class="flex items-center justify-center flex-1 w-full mx-auto">
+        <img src="/img/farmer.png" alt="farmer" class="w-full" />
       </div>
     </div>
   </div>

@@ -75,7 +75,7 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -95,7 +95,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -115,7 +115,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -135,7 +135,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -155,7 +155,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -175,7 +175,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -195,7 +195,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],
@@ -215,7 +215,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/selada.jpg',
+    imageUrl: '/assets/img/selada.jpg',
     firstName: 'Selada',
     lastName: '',
     positions: ['Rp 20.000'],

@@ -88,7 +88,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -108,7 +108,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -128,7 +128,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -148,7 +148,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -168,7 +168,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -188,7 +188,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -208,7 +208,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -228,7 +228,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
@@ -248,7 +248,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: '/src/assets/img/profile.jpg',
+    imageUrl: '/assets/img/profile.jpg',
     firstName: 'Solihun',
     lastName: '',
     positions: ['Petani Hidroponik', 'Kecamatan Arahan'],
